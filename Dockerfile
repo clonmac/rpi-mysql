@@ -1,5 +1,5 @@
 # Pull base image
-FROM resin/rpi-raspbian:wheezy
+FROM resin/rpi-raspbian:stretch
 MAINTAINER Govinda fichtner <govinda@hypriot.com>
 
 # add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
